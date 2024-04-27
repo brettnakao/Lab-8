@@ -7,6 +7,7 @@ Created on Mon Mar 25 14:22:51 2024
 """
 
 import numpy as np
+
 def rotate(vector, theta):
     """
 
@@ -28,18 +29,19 @@ def rotate(vector, theta):
     
     return rotated_vector
 
-vec = [1, 0]
+# Define input values
+vector = [1, 0]
 theta = 90
 
-r = rotate(vec, theta)
-
-x, y = rotate(vec, theta)
+# Define output values
+r = rotate(vector, theta)
+x, y = rotate(vector, theta)
 
 # =============================================================================
 # import numpy as np
+#
 # def decompose(r, theta):
 #     """
-#     
 # 
 #     Parameters
 #     ----------

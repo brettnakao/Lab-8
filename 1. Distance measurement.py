@@ -26,10 +26,8 @@ def distance(initial_point, final_point = (0, 0), metric = "taxi"):
 
     """
     if metric == 'taxi':
-        
         distance = abs(final_point[0] - initial_point[0]) + abs(final_point[1] - initial_point[1])
     else:
-        
         distance = np.sqrt((final_point[0] - initial_point[0])**2 + (final_point[1] - initial_point[1])**2)
     
     return distance

@@ -1,1 +1,1 @@
-# Lab-8
+# Lab-8## Functions1. Declaration, arguments, colon2. Docstrings3. Body4. Return## Random number generation1. rng = np.random.default_rng(seed=None)2. rand = rng.random## Histograms1. data = rng(1000)2. counts, bin_edges, _ = plt.hist(data)3. bin_size = bin_edges[1] - [0]4. new_widths = bin_size * counts / counts.max()5. plt.bar(bin_edges[:-1], counts, width=new_widths, color=['r', 'g', 'b', 'y'])## Contour plots, surface plots and heat maps1. Define a grid2. Contour plots3. Surface plots4. Heat maps

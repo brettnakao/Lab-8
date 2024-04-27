@@ -11,7 +11,7 @@ Created on Mon Mar 25 15:00:25 2024
 # 
 # rng = np.random.default_rng(seed = 42) # Random number generator object
 # 
-# rand = rng.random(10) # Generate numbers between 0 and 1
+# rand = rng.random(10) # Generates numbers between 0 and 1
 # =============================================================================
 
 import numpy as np
